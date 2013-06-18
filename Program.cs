@@ -12,7 +12,7 @@ namespace ConsoleApplication
             Console.WriteLine("hello this is a test");
             for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine(i.ToString());
+                Console.WriteLine((i+1).ToString());
             }
 
             Console.ReadKey();
