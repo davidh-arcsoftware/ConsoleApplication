@@ -10,6 +10,7 @@ namespace ConsoleApplication
         public static bool IsWorking()
         {
             //comment
+
             return true;
         }
     }
