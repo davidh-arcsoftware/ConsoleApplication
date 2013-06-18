@@ -18,8 +18,12 @@ namespace ConsoleApplication
                     Console.WriteLine((i + 1).ToString());
                 }
 
-                Console.ReadKey();
+                for (int i = 10; i > 0; i--)
+                {
+                    Console.WriteLine(i.ToString());
+                }
 
+                Console.ReadKey();
             }
         }
     }
