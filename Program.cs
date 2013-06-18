@@ -9,13 +9,16 @@ namespace ConsoleApplication
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello this is a test");
-            for (int i = 0; i < 10; i++)
+            if (BorderFunctions.IsWorking())
             {
-                Console.WriteLine((i+1).ToString());
-            }
+                Console.WriteLine("hello this is a test");
+                for (int i = 0; i < 10; i++)
+                {
+                    Console.WriteLine((i + 1).ToString());
+                }
 
-            Console.ReadKey();
+                Console.ReadKey();
+            }
         }
     }
 }
