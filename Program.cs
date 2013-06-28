@@ -11,7 +11,7 @@ namespace ConsoleApplication
         {
             if (BorderFunctions.IsWorking())
             {
-                Console.WriteLine("hello this is a test");
+                Console.WriteLine("dave was here");
 
                 for (int i = 0; i < 10; i++)
                 {
